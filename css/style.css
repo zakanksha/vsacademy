@@ -28,7 +28,8 @@ div span.a2 {
   display: block;
   color: white;
   text-align: center;
-  padding: 26px;
+  padding: 14px 16px;
+  float: left;
   text-decoration: none;
   background-color: #00008b;
 }

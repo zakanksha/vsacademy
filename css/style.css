@@ -104,21 +104,11 @@ div.a7 p {
     text-align: center;
     padding: 20px;
   }
-  #navigation li a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  #navigation li a{
+    float: none;
+    width: 100%;
   }
-  #navigation li a:hover {
-    background-color: white;
-    color: #00008b;
-  }#navigation {
-    overflow: hidden;
-    background-color: #00008b;
-  }
+
   div > span {
     display: block;
     text-align: center;

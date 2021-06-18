@@ -106,9 +106,42 @@ div.a7 p {
 }
 @media only screen and (max-width:500px) {
   div.a1 img {
-    max-width: 100%;
+    max-width: 50%;
     float: left;
 
   }
-
 }
+@media only screen and (max-width:500px) {
+  div.a7 img {
+    max-width: 100%;
+    float: left;
+    left: 50%;
+    margin-left: auto;
+    width: 200px;
+    height: 150px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

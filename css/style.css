@@ -156,6 +156,23 @@ div.a11 p {
   font-weight: bold;
   text-align: center;
 }
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:30%;
+    position: relative;
+    height:0;
+    text-align: center;
+}
+
+.map-responsive iframe{
+    height:70%;
+    width:50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align: center;
+}
 /* for a responsive webpage */
 @media only screen and (max-width:800px) {
   /* For tablets: */

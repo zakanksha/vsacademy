@@ -102,6 +102,9 @@ div.a7 p {
   /* For mobile phones: */
   div {
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   img {
     max-width: 100%;

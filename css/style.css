@@ -132,7 +132,11 @@ div.a7 p {
   .a5 {
     display: inline;
   }
-  
+  div.a3 {
+    text-align: center;
+    color: #00008b;
+    font-size: 20px;
+  }
   img {
     display: block;
     width: 60%;
@@ -156,9 +160,14 @@ div.a7 p {
 
 
 
-
-
-
+/*div.a7 {
+  font-size: 3vw;
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+*/
 
 
 

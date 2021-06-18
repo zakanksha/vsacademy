@@ -135,6 +135,26 @@ div.a9 {
   text-align: center;
   text-decoration: underline;
 }
+.a11 {
+  width: auto;
+  height: 360px;
+  background-color: white;
+  border: solid 2px;
+  float: center;
+}
+div.a11 img {
+  display: block;
+  width: 60%;
+  margin-left :auto;
+  margin-right: auto;
+  width: 250px;
+  height: 200px;
+}
+div.a11 p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
 /* for a responsive webpage */
 @media only screen and (max-width:800px) {
   /* For tablets: */

@@ -100,9 +100,9 @@ div.a7 p {
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  img, div, span.a2 {
+  img, div, span.a2, p, div.a7,h3 {
     max-width: 100%;
-    font-size: 5vw;
-    text-align: center;
+    font-size: 2vw;
+
   }
 }

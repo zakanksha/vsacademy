@@ -4,9 +4,6 @@ div.a1 {
   width: auto;
 }
 div.a1 img {
-  /*padding: 10px 140px;
-  float: left;
-  width: 150px;*/
   float: left;
   width: 140px;
   display: block;
@@ -15,7 +12,6 @@ div.a1 img {
 }
 .a2 {
   color: #00008b;
-  /*padding: 55px 100px;*/
   font-size: 50px;
   float: left;
   display: block;
@@ -156,15 +152,14 @@ div.a11 p {
   font-weight: bold;
   text-align: center;
 }
-.map-responsive{
+.map-responsive {
     overflow:hidden;
     padding-bottom:30%;
     position: relative;
     height:0;
     text-align: center;
 }
-
-.map-responsive iframe{
+.map-responsive iframe {
     height:70%;
     width:50%;
     position: absolute;
@@ -173,11 +168,12 @@ div.a11 p {
     display: inline-block;
     text-align: center;
 }
-.footer {
-  background-color: black;
-  color: white;
-  height: 170px;
-
+.top {
+  text-align: right;
+  height: 30px;
+  background-color: white;
+  color: #00008b;
+  font-size: 25px;
 }
 .row {
   box-sizing: border-box;
@@ -205,7 +201,7 @@ div.a11 p {
 /* for a responsive webpage */
 @media only screen and (max-width:800px) {
   /* For tablets: */
-  img, div span.a2{
+  img, div span.a2 {
     max-width: 80%;
     padding: 0;
     font-size: 5vw;
@@ -224,7 +220,7 @@ div.a11 p {
   div.a1 img {
     max-width: 100%;
   }
-  #navigation li a{
+  #navigation li a {
     float: none;
     width: 100%;
   }
@@ -245,10 +241,3 @@ div.a11 p {
     font-size: 2vw;
   }
 }
-
-
-
-
-
-
-.

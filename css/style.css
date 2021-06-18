@@ -98,30 +98,22 @@ div.a7 p {
     font-size: 5vw;
   }
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:480px) {
   /* For mobile phones: */
   div {
     max-width: 100%;
   }
-}
-@media only screen and (max-width:480px) {
-  div.a1 img {
-    max-width: 50%;
-    float: left;
-    display:block;
-    margin:0 auto;
-
-  }
-}
-@media all screen and (max-width:480px) {
   img {
     max-width: 100%;
     display:block;
     margin:0 auto;
     width: 80%;
     position: absolute;
+    float: left;
+    margin-left: 10px;
   }
 }
+
 
 
 

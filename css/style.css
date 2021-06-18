@@ -13,11 +13,14 @@ div.a1 img {
   margin-left :auto;
   margin-right: auto;
 }
-div span.a2 {
+.a2 {
   color: #00008b;
-  padding: 55px 100px;
+  /*padding: 55px 100px;*/
   font-size: 50px;
-  float: center;
+  float: left;
+  display: block;
+  margin-left :auto;
+  margin-right: auto;
 }
 #navigation {
   list-style-type: none;
@@ -117,32 +120,21 @@ div.a7 p {
     font-size: 5vw;
   }
 }
-@media all screen and (max-width:450px) {
+@media all screen and (max-width:480px) {
   /* For mobile phones: */
-  div.a1 {
-    padding: 0px;
-    text-align: right;
-  }
   div.a1 img {
     max-width: 100%;
+  }
+  .a2 {
+    color: red;
   }
   #navigation li a{
     float: none;
     width: 100%;
   }
-
-  div > span {
-    display: block;
-    text-align: center;
-  }
   .a5 {
     display: inline;
   }
-  /*img {
-    max-width: 100%;
-    display:block;
-    margin:0 auto;
-  }*/
   div.a7 {
     font-size: 3vw;
     display: block;

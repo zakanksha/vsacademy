@@ -104,21 +104,21 @@ div.a7 p {
     max-width: 100%;
   }
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:480px) {
   div.a1 img {
     max-width: 50%;
     float: left;
+    display:block;
+    margin:0 auto;
 
   }
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:480px) {
   div.a7 img {
     max-width: 100%;
     float: left;
-    left: 50%;
-    margin-left: auto;
-    width: 200px;
-    height: 150px;
+    display:block;
+    margin:0 auto;
   }
 }
 

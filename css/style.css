@@ -125,9 +125,6 @@ div.a7 p {
   div.a1 img {
     max-width: 100%;
   }
-  .a2 {
-    color: red;
-  }
   #navigation li a{
     float: none;
     width: 100%;
@@ -135,13 +132,7 @@ div.a7 p {
   .a5 {
     display: inline;
   }
-  div.a7 {
-    font-size: 3vw;
-    display: block;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-  }
+  
   img {
     display: block;
     width: 60%;

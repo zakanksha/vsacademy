@@ -69,23 +69,16 @@ div.a5 {
   color: black;
   height: 80px;
   width: auto;
-}/*
-.a6 {
-  text-align: center;
-  font-size: 30px;
-  box-sizing: content-box;
-  width: 20%;
-  border: solid black 2px;
-  padding: 5px;
-  position: absolute;
-  left: 50%;
-  margin-left: -150px;
-  color: #00008b;
-}*/
+}
 .a6 {
   display: block;
-  margin-left: auto;
   margin-right: auto;
+  border: solid black 2px;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  color: #00008b;
+  font-size: 30px;
 }
 .a7 {
   width: auto;
@@ -94,13 +87,6 @@ div.a5 {
   border: solid 2px;
   float: center;
 }
-/*div.a7 img {
-  padding: 10px 140px;
-  left: 50%;
-  margin-left: 420px;
-  width: 400px;
-  height: 300px;
-}*/
 div.a7 img {
   display: block;
   width: 60%;

@@ -98,7 +98,7 @@ div.a7 p {
     font-size: 5vw;
   }
 }
-@media only screen and (max-width:480px) {
+@media all screen and (max-width:480px) {
   /* For mobile phones: */
   div {
     max-width: 100%;
@@ -107,7 +107,7 @@ div.a7 p {
     max-width: 100%;
     display:block;
     margin:0 auto;
-    width: 120%;
+    width: 100%;
     position: absolute;
     margin-left: 0px;
   }

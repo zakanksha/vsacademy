@@ -106,7 +106,7 @@ div.a7 p {
   }
 }
 @media only screen and (max-width:500px) {
-  img {
+  div.a1 img {
     max-width: 20%;
     float: left;
 

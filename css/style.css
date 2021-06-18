@@ -82,7 +82,7 @@ div.a5 {
 }
 .a7 {
   width: auto;
-  height: 420px;
+  height: 400px;
   background-color: white;
   border: solid 2px;
   float: center;
@@ -93,7 +93,7 @@ div.a7 img {
   margin-left :auto;
   margin-right: auto;
   width: 400px;
-  height: 300px;
+  height: 250px;
 }
 div.a7 p {
   font-size: 30px;

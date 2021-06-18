@@ -103,6 +103,12 @@ div.a7 p {
   img, div, span.a2, p, div.a7,h3 {
     max-width: 100%;
     font-size: 2vw;
-
   }
+}
+@media only screen and (max-width:500px) {
+  img {
+    max-width: 20%;
+    float: left;
+  }
+
 }

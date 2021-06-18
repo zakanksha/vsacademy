@@ -113,9 +113,9 @@ div.a7 p {
 
   }
 }
-@media only screen and (max-width:450px) {
+@media all screen and (max-width:450px) {
   img {
-    max-width: 100%;
+    
     display:block;
     margin:0 auto;
   }

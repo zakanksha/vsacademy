@@ -100,7 +100,7 @@ div.a7 p {
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  div.a1, div.a2,div.a3, div.a4, div.a5, div.a6 span.a2, p, div.a7, h3 {
+  div {
     max-width: 100%;
     font-size: 3vw;
   }

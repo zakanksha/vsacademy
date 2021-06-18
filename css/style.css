@@ -1,0 +1,108 @@
+div.a1 {
+  background-color: white;
+  height: 170px;
+  width: auto;
+}
+div.a1 img {
+  padding: 10px 140px;
+  float: left;
+  width: 150px;
+}
+div span.a2 {
+  color: #00008b;
+  padding: 55px 100px;
+  font-size: 50px;
+  float: center;
+}
+#navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00008b;
+}
+#navigation li {
+  float: left;
+}
+#navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 26px;
+  text-decoration: none;
+  background-color: #00008b;
+}
+#navigation li a:hover {
+  background-color: white;
+  color: #00008b;
+}
+div.a3 {
+  text-align: center;
+  color: #00008b;
+  font-size: 40px;
+}
+div.a4 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  height: 420px;
+  width: auto;
+  border: solid black;
+  border-width: 2px 3px;
+}
+div.a5 {
+  background-color: white;
+  color: black;
+  height: 80px;
+  width: auto;
+}
+.a6 {
+  text-align: center;
+  font-size: 30px;
+  box-sizing: content-box;
+  width: 20%;
+  border: solid black 2px;
+  padding: 5px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  color: #00008b;
+}
+.a7 {
+  width: auto;
+  height: 500px;
+  background-color: white;
+  border: solid 2px;
+  float: center;
+}
+div.a7 img {
+  padding: 10px 140px;
+  left: 50%;
+  margin-left: 420px;
+  width: 400px;
+  height: 300px;
+}
+div.a7 p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+/* for a responsive webpage */
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  img, div span.a2{
+    max-width: 80%;
+    padding: 0;
+    font-size: 5vw;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  img, div, span.a2 {
+    max-width: 100%;
+    font-size: 5vw;
+    text-align: center;
+  }
+}

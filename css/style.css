@@ -48,7 +48,10 @@ div.a1 img {
 div.a3 {
   text-align: center;
   color: #00008b;
-  font-size: 40px;
+  font-size: 30px;
+  display: block;
+  margin-left :auto;
+  margin-right: auto;
 }
 div.a4 {
   text-align: center;
@@ -132,10 +135,8 @@ div.a7 p {
   .a5 {
     display: inline;
   }
-  div.a3 {
-    text-align: center;
-    color: #00008b;
-    font-size: 20px;
+  .a3 {
+    max-width: 100%;
   }
   img {
     display: block;

@@ -78,10 +78,18 @@ div.a5 {
   border: solid 2px;
   float: center;
 }
-div.a7 img {
+/*div.a7 img {
   padding: 10px 140px;
   left: 50%;
   margin-left: 420px;
+  width: 400px;
+  height: 300px;
+}*/
+div.a7 img {
+  display: block;
+  width: 60%;
+  margin-left :auto;
+  margin-right: auto;
   width: 400px;
   height: 300px;
 }
@@ -102,8 +110,8 @@ div.a7 p {
 @media all screen and (max-width:480px) {
   /* For mobile phones: */
   div.a1 {
-    text-align: center;
-    padding: 20px;
+    padding: 0px;
+    text-align: right;
   }
   #navigation li a{
     float: none;
@@ -130,8 +138,11 @@ div.a7 p {
     padding: 5px;
   }
   img {
-    max-width: 100%;
-    float: left;
+    display: block;
+    width: 60%;
+    margin-left :auto;
+    margin-right: auto;
+
   }
 }
 

@@ -120,6 +120,21 @@ div.a8 p {
   font-weight: bold;
   text-align: center;
 }
+div.a9 {
+  background-color: white;
+  color: black;
+  height: 50px;
+  width: auto;
+}
+.a10 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  color: #00008b;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
 /* for a responsive webpage */
 @media only screen and (max-width:800px) {
   /* For tablets: */

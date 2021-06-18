@@ -182,6 +182,7 @@ div.a11 p {
 .row {
   box-sizing: border-box;
   display: flex;
+  position: relative;
 }
 .column {
   float: left;
@@ -191,6 +192,9 @@ div.a11 p {
   height: auto;
   background-color: black;
   color: white;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -225,7 +229,10 @@ div.a11 p {
     width: 60%;
     margin-left :auto;
     margin-right: auto;
-
+  }
+  .column {
+    max-width: 100%;
+    font-size: 3px;
   }
 }
 

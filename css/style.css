@@ -186,11 +186,13 @@ div.a11 p {
   padding: 5px;
   flex: 50%;
   height: auto;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  font-style: oblique;
+  font-weight: bolder;
 }
 /* Clear floats after the columns */
 .row:after {

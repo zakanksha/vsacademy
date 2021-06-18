@@ -76,7 +76,7 @@ div.a5 {
   border: solid black 2px;
   position: absolute;
   left: 50%;
-  margin-left: -75px;
+  margin-left: -80px;
   color: #00008b;
   font-size: 30px;
 }
@@ -184,29 +184,6 @@ div.a11 p {
 
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*div.a7 {
-  font-size: 3vw;
-  display: block;
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-}
-*/
 
 
 

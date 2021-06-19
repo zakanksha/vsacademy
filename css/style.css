@@ -1,11 +1,12 @@
 div.a1 {
   background-color: white;
-  height: 170px;
+  height: 140px;
   width: auto;
 }
 div.a1 img {
   float: left;
-  width: 140px;
+  width: 130px;
+  height: auto;
   display: block;
   margin-left :auto;
   margin-right: auto;

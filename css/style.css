@@ -17,6 +17,7 @@ div.a1 img {
   display: block;
   margin-left :auto;
   margin-right: auto;
+  font-weight: bolder;
 }
 #navigation {
   list-style-type: none;
@@ -36,12 +37,14 @@ div.a1 img {
   float: left;
   text-decoration: none;
   background-color: #00008b;
+  font-family: monospace;
 }
 #navigation li a:hover {
   background-color: white;
   color: #00008b;
 }
 div.a3 {
+  font-family: monospace;
   text-align: center;
   color: #00008b;
   font-size: 20px;
@@ -59,6 +62,7 @@ div.a4 {
   width: auto;
   border: solid black;
   border-width: 2px 3px;
+  font-family: monospace;
 }
 div.a5 {
   background-color: white;
@@ -76,6 +80,7 @@ div.a5 {
   color: #00008b;
   font-size: 30px;
   text-align: center;
+  font-family: monospace;
 }
 .a7 {
   width: auto;
@@ -83,6 +88,7 @@ div.a5 {
   background-color: white;
   border: solid 2px;
   float: center;
+  font-family: monospace;
 }
 div.a7 img {
   display: block;
@@ -103,6 +109,7 @@ div.a7 p {
   background-color: white;
   border: solid 2px;
   float: center;
+  font-family: monospace;
 }
 div.a8 img {
   display: block;
@@ -122,6 +129,7 @@ div.a9 {
   color: black;
   height: 50px;
   width: auto;
+  font-family: monospace;
 }
 .a10 {
   display: block;
@@ -131,6 +139,7 @@ div.a9 {
   font-size: 30px;
   text-align: center;
   text-decoration: underline;
+  font-family: monospace;
 }
 .a11 {
   width: auto;
@@ -138,6 +147,7 @@ div.a9 {
   background-color: white;
   border: solid 2px;
   float: center;
+  font-family: monospace;
 }
 div.a11 img {
   display: block;
@@ -158,6 +168,7 @@ div.a11 p {
     position: relative;
     height:0;
     text-align: center;
+    font-family: monospace;
 }
 .map-responsive iframe {
     height:70%;
@@ -174,6 +185,7 @@ div.a11 p {
   background-color: white;
   color: #00008b;
   font-size: 15px;
+  font-family: monospace;
 }
 .row {
   box-sizing: border-box;
@@ -225,6 +237,9 @@ div.a11 p {
   #navigation li a {
     float: none;
     width: 100%;
+  }
+  .a1 {
+    font-size: 80px;
   }
   .a5 {
     display: inline;

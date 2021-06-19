@@ -230,7 +230,7 @@ div.a11 p {
 @media all screen and (max-width:480px) {
   /* For mobile phones: */
   div.a1 img {
-    max-width: 500%;
+    max-width: 50%;
     position: relative;
 
   }

@@ -233,6 +233,8 @@ div.a11 p {
     max-width: 100%;
     min-width: 50px;
     height: auto;
+    display: block;
+    object-fit: scale-down;
   }
   #navigation li {
     float: left;

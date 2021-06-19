@@ -231,7 +231,8 @@ div.a11 p {
   /* For mobile phones: */
   div.a1 img {
     max-width: 100%;
-    position: absolute;
+    position: relative;
+
   }
   #navigation li {
     float: left;

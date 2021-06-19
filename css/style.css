@@ -230,9 +230,9 @@ div.a11 p {
 @media all screen and (max-width:480px) {
   /* For mobile phones: */
   div.a1 img {
-    
-    height: 50px;
-    width: auto;
+    max-width: 100%;
+    min-width: 50px;
+    height: auto;
   }
   #navigation li {
     float: left;

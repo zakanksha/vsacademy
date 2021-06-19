@@ -241,7 +241,7 @@ div.a11 p {
     float: left;
     width: 100%;
   }
-  span.a2 {
+#top {
     max-width: 100%;
     font-weight: bolder;
     color: red;

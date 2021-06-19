@@ -231,6 +231,7 @@ div.a11 p {
   /* For mobile phones: */
   div.a1 img {
     max-width: 100%;
+    position: absolute;
   }
   #navigation li {
     float: left;
@@ -242,6 +243,8 @@ div.a11 p {
   }
   .a2 {
     max-width: 100%;
+    font-weight: bolder;
+    font-size: 30px;
   }
   .a5 {
     display: inline;

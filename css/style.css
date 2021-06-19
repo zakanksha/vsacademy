@@ -230,9 +230,9 @@ div.a11 p {
 @media all screen and (max-width:480px) {
   /* For mobile phones: */
   div.a1 img {
-    max-width: 100%;
-    position: relative;
-    width: 70px;
+    
+    width: 10px;
+    height: 10px;
 
   }
   #navigation li {

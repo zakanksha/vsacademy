@@ -241,10 +241,9 @@ div.a11 p {
     float: left;
     width: 100%;
   }
-  .a2 {
+  span.a2 {
     max-width: 100%;
     font-weight: bolder;
-    font-size: 30px;
   }
   .a5 {
     display: inline;

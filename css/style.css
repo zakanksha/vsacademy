@@ -232,6 +232,7 @@ div.a11 p {
   }
   #navigation li {
     float: left;
+    position: relative;
   }
   #navigation li a {
     float: left;

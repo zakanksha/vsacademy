@@ -230,6 +230,9 @@ div.a11 p {
   div.a1 img {
     max-width: 100%;
   }
+  #navigation li {
+    float: left;
+  }
   #navigation li a {
     float: left;
     width: 100%;

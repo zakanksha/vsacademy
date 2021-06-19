@@ -244,6 +244,7 @@ div.a11 p {
   span.a2 {
     max-width: 100%;
     font-weight: bolder;
+    color: red;
   }
   .a5 {
     display: inline;

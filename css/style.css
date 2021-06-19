@@ -231,7 +231,7 @@ div.a11 p {
     max-width: 100%;
   }
   #navigation li a {
-    float: none;
+    float: left;
     width: 100%;
   }
   .a5 {

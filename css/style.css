@@ -232,6 +232,7 @@ div.a11 p {
   div.a1 img {
     max-width: 100%;
     position: relative;
+    width: 70px;
 
   }
   #navigation li {

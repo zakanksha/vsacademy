@@ -230,7 +230,7 @@ div.a11 p {
 @media all screen and (max-width:480px) {
   /* For mobile phones: */
   div.a1 img {
-    max-width: 50%;
+    max-width: 20%;
     position: relative;
 
   }
@@ -242,7 +242,7 @@ div.a11 p {
     float: left;
     width: 100%;
   }
-#top {
+  #top {
     max-width: 100%;
     font-weight: bolder;
     font-size: 30px;
